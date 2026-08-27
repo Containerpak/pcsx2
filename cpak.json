@@ -1,34 +1,25 @@
 {
-  "$schema": "https://raw.githubusercontent.com/Containerpak/cpak/v2/schema/manifest-v2.json",
-  "manifest_version": "2.0",
+  "$schema": "https://raw.githubusercontent.com/Containerpak/cpak/v2/schema/manifest-v3.json",
+  "manifest_version": "3.0",
   "name": "PCSX2",
   "description": "Play PlayStation 2 games on Linux.",
   "version": "2.6.3",
-  "image": "ghcr.io/containerpak/pcsx2:main",
+  "image": "ghcr.io/containerpak/pcsx2@sha256:cba752dda29962eebfa879bef110148c9691c51daa5e4c94f6b5c3cc9bc64148",
   "binaries": [
     "/usr/bin/pcsx2"
   ],
   "desktop_entries": [
     "/usr/share/applications/net.pcsx2.PCSX2.desktop"
   ],
-  "dependencies": [
-
-  ],
-  "addons": [
-
-  ],
+  "dependencies": [],
+  "addons": [],
   "idle_time": 0,
   "override": {
-    "socketX11": true,
     "socketWayland": true,
     "socketPulseAudio": true,
-    "socketSessionBus": true,
-    "socketSystemBus": false,
     "socketSshAgent": false,
     "socketCups": false,
     "socketGpgAgent": false,
-    "socketAtSpiBus": true,
-    "socketBluetooth": false,
     "deviceDri": true,
     "deviceKvm": false,
     "deviceShm": true,
@@ -46,18 +37,13 @@
         "access": "read-write"
       }
     ],
-    "env": [
-
-    ],
+    "env": [],
     "network": true,
     "process": false,
     "userNamespaces": true,
     "memoryMaxMB": 0,
     "cpuQuota": 0,
     "pidsMax": 0,
-    "asRoot": false,
-    "allowedHostCommands": [
-
-    ]
+    "asRoot": false
   }
 }
