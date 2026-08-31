@@ -3,7 +3,7 @@
   "manifest_version": "3.0",
   "name": "PCSX2",
   "description": "Play PlayStation 2 games on Linux.",
-  "version": "2.8.0",
+  "version": "2.8.1",
   "image": "ghcr.io/containerpak/pcsx2@sha256:019278619312a2a7e5507da4c29a2a492b0e169359246dd547e0669b5898762a",
   "binaries": [
     "/usr/bin/pcsx2"
