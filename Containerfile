@@ -1,6 +1,6 @@
 FROM ubuntu:26.04 AS source
 
-ADD --checksum=sha256:dd3c0b8cf7ebb09661cad609416df0e53887faa6b3c25413f494df6c739a8146 https://github.com/PCSX2/pcsx2/releases/download/v2.8.1/pcsx2-v2.8.1-linux-appimage-x64-Qt.AppImage /tmp/source
+ADD --checksum=sha256:0c46bb6a88aa2782b10853a7b07cf3387ba99cbef2b966372cd2315b8571abea https://github.com/PCSX2/pcsx2/releases/download/v2.8.2/pcsx2-v2.8.2-linux-appimage-x64-Qt.AppImage /tmp/source
 
 RUN chmod 0755 /tmp/source && \
     cd /tmp && \
