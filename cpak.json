@@ -4,7 +4,7 @@
   "name": "PCSX2",
   "description": "Play PlayStation 2 games on Linux.",
   "version": "2.8.2",
-  "image": "ghcr.io/containerpak/pcsx2@sha256:2e0742797e61358f3cf8717327b67a405c656fdd78962112ef06250c0ef8def8",
+  "image": "ghcr.io/containerpak/pcsx2@sha256:ac1a6bd0a48decc1406ea1059d57e8a227a4cf0262c5ad3a31e1d281c2615c86",
   "binaries": [
     "/usr/bin/pcsx2"
   ],
